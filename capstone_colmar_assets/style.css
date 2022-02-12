@@ -1,5 +1,6 @@
 html {
-  font-family: Verdana sans-serif;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 .header {
@@ -9,13 +10,21 @@ html {
   align-items: center;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+video {
+  width: 100px;
+}
+
 .colmar {
   font-weight: bold;
 }
 
 .header img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .navbar {
@@ -39,6 +48,7 @@ html {
   background: #d3d3d3;
   color: #2b2d2f;
   display: flex;
+  margin-bottom: 24px;
 }
 
 .element-one img {
@@ -72,32 +82,106 @@ html {
 }
 
 .e2container {
-  width: 50%;
+  width: 60%;
   float: left;
-  background: red;
+  margin: 0 24px;
 }
 
 .element-two img {
   width: 100%;
-  margin: 10px;
 }
 
-.right-practice_box {
-  max-width: 40%;
+.rpb {
+  width: 100%;
+  margin-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+.rpb:hover {
+  background-color: lightslategray;
 }
 
 .practcont {
-  width: 65%;
-  font-size: 12px;
-  position: relative;
-  bottom: 125px;
-  left: 140px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
+
 .practcont h4 {
   font-size: 18px;
 }
 
 .right-practice_box img {
-  width: 35%;
+  max-width: 35%;
+  height: auto;
   margin: 16px;
+  margin-top: 0;
+}
+
+.element-three {
+  background: #d3d3d3;
+  margin-top: 32px;
+}
+
+.element-three h1 {
+  text-align: center;
+  margin: 32px auto;
+  top: 32px;
+}
+
+.bigcoursescontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  margin-bottom: 400px;
+
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 72px;
+}
+
+.courses {
+  background-color: white;
+  margin: 16px;
+  max-width: 100%;
+}
+
+.bigcoursescontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.courses h3,
+p {
+  margin: 16px;
+}
+
+.thesis {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.thesis h1 {
+  margin: 32px auto;
+}
+
+.thesis video {
+  width: 100%;
+}
+
+.leftthesisbox {
+  width: 60%;
+}
+
+.right-thesis-box {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thesis img {
+  width: 35%;
 }
