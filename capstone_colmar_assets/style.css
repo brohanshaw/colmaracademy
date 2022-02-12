@@ -1,0 +1,103 @@
+html {
+  font-family: Verdana sans-serif;
+}
+
+.header {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colmar {
+  font-weight: bold;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+}
+
+.element-one {
+  background: #d3d3d3;
+  color: #2b2d2f;
+  display: flex;
+}
+
+.element-one img {
+  max-width: 60%;
+  margin: 32px 24px;
+}
+
+.element-one a {
+  border: 1px solid black;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: #2b2d2f;
+  position: relative;
+  color: white;
+}
+
+.learn {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-align: left;
+  margin: auto auto;
+}
+
+.element-two {
+  background: white;
+  display: flex;
+  width: 100%;
+}
+
+.e2container {
+  width: 50%;
+  float: left;
+  background: red;
+}
+
+.element-two img {
+  width: 100%;
+  margin: 10px;
+}
+
+.right-practice_box {
+  max-width: 40%;
+}
+
+.practcont {
+  width: 65%;
+  font-size: 12px;
+  position: relative;
+  bottom: 125px;
+  left: 140px;
+}
+.practcont h4 {
+  font-size: 18px;
+}
+
+.right-practice_box img {
+  width: 35%;
+  margin: 16px;
+}
